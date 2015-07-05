@@ -3,7 +3,7 @@ This project is a collection of smaller tasks using **Sinatra** together with th
 ####Key learnings:
 
 - Sinatra set up
-- ERB templating language
+- ERB, Slim templating languages
 - SASS (CSS preprocessor)
 
 ####Preview
