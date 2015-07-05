@@ -1,19 +1,23 @@
 require 'sinatra'
+require 'slim'
+require 'sass'
+
+get('/styles.css'){ scss :styles }
 
 get '/' do 
-  erb :home
+  slim :home
 end
 
 get '/about' do 
   @title = "Songs by FNM - Album of The Year"
-  erb :about
+  slim :about
 end
 
 get '/contact' do 
-  erb :contact
+  slim :contact
 end
 
 not_found do 
-  erb :not_found
+  slim :not_found
 end
 
